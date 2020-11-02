@@ -68,7 +68,7 @@ public class Patient {
                     bmiCategory="Normal";
                     insuranceCategory="low";
                 }
-                else if (BMI>=25 && BMI<=29.9 )
+                else if (BMI>=25 || BMI<=29.9 )
                 {
                     bmiCategory="Overweight";
                     insuranceCategory="high";

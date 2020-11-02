@@ -103,7 +103,7 @@ public class Patient {
         //write to file logic
         String strDouble = String.format("%.2f", BMI);
         System.out.println("BMI index calculated and write to file succesfull.");
-        bw.write("Patient Name: "+patient_name+"\r\n"+"Birth Date: "+birthDate+"\r\nBMI Index: "+strDouble+"\r\nBMI Category: "+bmiCategory+"\r\nInsurance payment category is:" +insuranceCategory);
+        bw.write("Patient Name: "+patient_name+"\r\n"+"Birth Date: "+birthDate+"\r\nBMI Index: "strDouble+"\r\nBMI Category: "+bmiCategory+"\r\nInsurance payment category is:" +insuranceCategory);
         bw.newLine();
         bw.newLine();
         System.out.println("");
